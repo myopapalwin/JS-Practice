@@ -23,7 +23,6 @@ const mixedData = [
 // 5. Filter number, ignore others
 // 6. Calculate all requirements and return
 
-/*
 const calculateStats = (...data) => {
   const flatData = data.flat(Infinity);
   if (Array.isArray(flatData)) {
@@ -60,7 +59,6 @@ const calculateStats = (...data) => {
     throw new Error("Argument must be an array!");
   }
 };
-*/
 
 // console.log(calculateStats(...mixedData));
 
@@ -234,7 +232,6 @@ console.log(sumNumbers, booleanCount, stringNumbersSum, stringLength);
 //   .filter(Number.isFinite);
 // console.log(result);
 
-/*
 // Day 5 - Final Boss Bonus -- Add max and min
 const arr = [1, "2", "abc", " 10 ", true, null];
 
@@ -269,7 +266,6 @@ const result = arr.reduce(
 );
 result.average = Number((result.sum / result.count).toFixed(2));
 // console.log(result);
-*/
 
 // const arr = [1, '2', 'abc', ' 10 ', true, null];
 
