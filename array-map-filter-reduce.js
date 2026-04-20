@@ -23,7 +23,6 @@ const mixedData = [
 // 5. Filter number, ignore others
 // 6. Calculate all requirements and return
 
-/*
 const calculateStats = (...data) => {
   const flatData = data.flat(Infinity);
   if (Array.isArray(flatData)) {
@@ -60,7 +59,6 @@ const calculateStats = (...data) => {
     throw new Error("Argument must be an array!");
   }
 };
-*/
 
 // console.log(calculateStats(...mixedData));
 
