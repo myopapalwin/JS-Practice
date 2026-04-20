@@ -336,4 +336,5 @@ resultData.average =
   resultData.validCount === 0
     ? 0
     : Number((resultData.total / resultData.validCount).toFixed(2));
+
 console.log(resultData);
