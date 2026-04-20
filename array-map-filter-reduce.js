@@ -232,6 +232,7 @@ console.log(sumNumbers, booleanCount, stringNumbersSum, stringLength);
 //   .filter(Number.isFinite);
 // console.log(result);
 
+/*
 // Day 5 - Final Boss Bonus -- Add max and min
 const arr = [1, "2", "abc", " 10 ", true, null];
 
@@ -266,6 +267,7 @@ const result = arr.reduce(
 );
 result.average = Number((result.sum / result.count).toFixed(2));
 // console.log(result);
+*/
 
 // const arr = [1, '2', 'abc', ' 10 ', true, null];
 
