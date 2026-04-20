@@ -298,8 +298,8 @@ result.average = Number((result.sum / result.count).toFixed(2));
 // result.average = Number((result.sum / result.count).toFixed(2));
 // console.log(result);
 
+/*
 // Day 5 __ "Real World Challenge (API Data Processing Level)"
-
 const apiData = [
   { price: "100" },
   { price: 200 },
@@ -341,3 +341,4 @@ resultData.average =
     : Number((resultData.total / resultData.validCount).toFixed(2));
 
 console.log(resultData);
+*/
